@@ -1,0 +1,62 @@
+:root{
+    --navbar-bg: #851818;
+    --navbar-text: #eee6e6;
+    --navbar-hover: #8b0404;
+    --navbar_text_h: #ff0000;
+}
+.perso_nav{
+    background-color: var(--navbar-bg) !important;
+    color: var(--navbar-text) !important;
+}
+    .perso_nav:hover{
+        background-color: var(--navbar-hover) !important;
+    }
+
+.perso-text{
+    color:var(--navbar-text) !important;
+}
+
+.perso-text:hover{
+    color: var(--navbar_text_h) !important;
+}
+.btn-perso{
+    background-color: black;
+    color: aliceblue;
+    border: #851818;
+}
+.btn-perso:hover{
+    background-color: #ff0303;
+    color: black;
+    
+}
+.perso_btn_nav{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-color: #851818 !important;
+}
+.perso_btn_nav:hover{
+    border: none !important;
+    border-color: antiquewhite !important;
+    background-color: #b5199b;
+}
+
+.img_perso{
+    height: 70vh;
+    width: 100%;
+}
+.perso_car{
+    text-align: center;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.titu{
+    text-align: center;
+    color: #851818;
+}
